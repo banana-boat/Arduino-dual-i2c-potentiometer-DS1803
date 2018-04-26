@@ -26,7 +26,7 @@
 
 #ifndef DS1803_h
 #define DS1803_h
-#include "WProgram.h"
+#include "Arduino.h"
 #include <Wire.h>
 
 #define WIPER_0 0xA9
@@ -46,3 +46,4 @@ class DS1803
 };
 
 #endif
+
